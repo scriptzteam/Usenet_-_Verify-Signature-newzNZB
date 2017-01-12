@@ -1,0 +1,28 @@
+Example header of upload:
+
+From: nEwZ[NZB] <pr3d@NET.world>
+Newsgroups: alt.binaries.inner-sanctum,alt.binaries.teevee,alt.binaries.erotica,alt.binaries.sounds,alt.binaries.moovee
+Subject: [PRiVATE] \d95d5f29\::f029a5b8b1.7c8d11096afc536055c23eb2029ac61069089e22.a88219e8::/b6251721a626b86a/ [8d2d235457976f] [newzNZB] [47/69] - "[de511941b7]_[newzNZB]_c78193061690856a825b8df9999244af25d87968" yEnc (110/196)
+Message-ID: <1484241488.82292.110@PRiVATE>
+Organization: PRiVATE
+Verify-Signature-newzNZB: ('-----BEGIN newzNZB SIGNATURE-----', 'DqGKuFlg2vgz/n0sjYQisWfuHk0iUFNaZYA2ih8UudynVSCuTDRi1IaMn5wCScSqFAnaD3PiVbRaqujjKnul6jF6YZ7tXfqMKCOFyIvBONmhUPKBmm2WKLNVqGIyIOIGwvYm2/Hf7MyPf8XhgavE6RDRLcSJSEoiT8aL55Aw4RR6cguW8cMPrN0j6PS+XOHAGFvZ0T3fH4vXyaxuUi/1UABAFZgkoqMTVmGGIGpfS5PeH0hitPW8/MqkqtjNNvebuhjW28l0K/pX6DOWNxeAq7VKwqRLile/tAnAwyN22KI=', '<1484241488.82292.110@PRiVATE>', '-----END newzNZB SIGNATURE-----')
+X-Newsposter: newzNZB
+Date: Thu, 12 Jan 2017 18:21:59 +0100
+Lines: 6099
+Injection-Date: Thu, 12 Jan 2017 18:21:59 +0100
+
+If you put it into verifier https://verify.newznzb.info/, but only header field - "Verify-Signature-newzNZB" you get
+
+root% cmd:verify.newznzb.info --verify newzNZB.sig
+echo: Signature made 2017-January-12 17:18:08 using TMP key ID a8d9a84f029b6
+echo: Good signature from "nEwZ[NZB] "
+
+TMP key ID changing there is nothing to worry about...
+
+In the case of bad signature or someone FAKED the signature the error is:
+
+root% cmd:verify.newznzb.info --verify newzNZB.sig
+
+echo: Signature time check !!FAILED!!
+
+echo: !!BAD!! signature NOT from "nEwZ[NZB]
