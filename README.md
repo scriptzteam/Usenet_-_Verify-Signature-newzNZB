@@ -1,4 +1,4 @@
-# Usenet_-_Verify-Signature-newzNZB
+# Usenet - Verify-Signature-newzNZB
 New field on newz[NZB] uploads "Verify-Signature-newzNZB"
 
 newzNZB(1)                 Verify-Signature-newzNZB                     newzNZB(1)
