@@ -45,7 +45,6 @@ CHANGELOG
     2017-JAN-13
         You can also verify now OUR signature thru your terminal (ssh and curl cmd) 
 	via our api - check EXAMPLE_CURL file
-    
     2017-JAN-12
         Idea, so we added it to our uploader software
 
