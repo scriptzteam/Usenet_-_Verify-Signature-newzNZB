@@ -1,0 +1,10 @@
+You can also verify OUR signature thru your terminal (ssh and curl cmd) via our api:
+
+plain command:
+echo "" | curl -F 'signature=<-' https://verify.newznzb.info
+
+sample good signature command:
+echo "('-----BEGIN newzNZB SIGNATURE-----', 'DwI+1QLvVUbwZ6Rvr8xvCF2FZKPTARHYg9mRG55japoUUVA4vD8nz0Sg70bcHh3MyuLx2LD+Wq4Wx3yIdTiDKrlsMzJKqpGl/FHjwmyawvE/+Z+tCF0g4KA1BSmkOVvf86f2rNXA53t0csdv9tCkj1aAMgJqqHzigfNy2FyEGwRjm75Aw87mgnPZ0HznQPBi0nTERMhq2O0xf17YibdXExE60TSpc4nPhbuVWVXOdCtQ1K1TOMS7FBeX5FqNMTy3H0zoxNFcG9m72bz62D6E+MJ59fx4F0UFyWjfP62NnWg=', '<1484294126.33222.42@PRiVATE>', '-----END newzNZB SIGNATURE-----')" | curl -F 'signature=<-' https://verify.newznzb.info
+
+HOW IT WORKS:
+http://i.imgur.com/8NgiGxG.gif
